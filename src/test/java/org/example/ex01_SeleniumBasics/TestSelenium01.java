@@ -11,7 +11,7 @@ public class TestSelenium01 {
     public  void test_selenium01(){
 
         FirefoxDriver driver =new FirefoxDriver();
-        driver.get("https://app.vwo.com");
+        driver.get("https://www.flipkart.com");
         System.out.println(driver.getTitle());
 
     }
